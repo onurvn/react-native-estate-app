@@ -3,7 +3,7 @@ import { openAuthSessionAsync } from "expo-web-browser";
 import { Account, Avatars, Client, OAuthProvider } from "react-native-appwrite";
 
 export const config = {
-  platform: "com.rnep.realestate",
+  platform: process.env.EXPO_PUBLIC_APPWRITE_PLATFORM,
   endpoint: process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT,
   projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID,
 };
