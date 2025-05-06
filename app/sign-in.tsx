@@ -1,5 +1,5 @@
-import icons from "@/constans/icons";
-import images from "@/constans/images";
+import icons from "@/constants/icons";
+import images from "@/constants/images";
 import { login } from "@/lib/appwrite";
 import { useGlobalContext } from "@/lib/globalProvider";
 import { Redirect } from "expo-router";
